@@ -2,8 +2,11 @@ public class Main {
     public static void main(String[] args){
         System.out.println("Hello World");
 
-        for (int i=1; i<=15; i++)
-    System.out.println("i = " + i);
+       String[] imiona = {"Piotr", "Anna", "Jan", "Leszek"};
+        for (int i = 0; i < imiona.length; i++)
+
+        System.out.println(i + 1 + ". " + imiona[i]);
+
     }
 
 }
